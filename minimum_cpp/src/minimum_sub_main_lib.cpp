@@ -11,7 +11,7 @@ MainSub::MainSub()
     : Node("main_sub")
 {
   subscription_ =
-      this->create_subscription<std_msgs::msg::String>("main_sub", 10, std::bind(&MainSub::topic_callback, this, _1));
+      this->create_subscription<std_msgs::msg::String>("main_topic", 10, std::bind(&MainSub::topic_callback, this, _1));
 }
 void MainSub::topic_callback(std_msgs::msg::String::UniquePtr msg)
 {

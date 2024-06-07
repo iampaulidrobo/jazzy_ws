@@ -64,7 +64,7 @@ target_link_libraries(minimum_sub_main_node minimum_sub_main_lib
 
 install(TARGETS
   minimum_pub_main_node
-  # minimum_sub_main_node
+  minimum_sub_main_node
   DESTINATION lib/${PROJECT_NAME})
 #!@(II)push
 
