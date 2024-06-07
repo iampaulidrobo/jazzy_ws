@@ -11,6 +11,27 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+
+#@push
+# set(msg_files
+#   "msg/AddressBook.msg"
+# )
+# rosidl_generate_interfaces(${PROJECT_NAME}
+#   ${msg_files}
+# )
+#if same package
+#rosidl_get_typesupport_target(cpp_typesupport_target
+#  ${PROJECT_NAME} rosidl_typesupport_cpp)
+
+#target_link_libraries(publish_address_book "${cpp_typesupport_target}")
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Num.msg"
+
+  #DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+)
+#!@push
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -22,5 +43,5 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
+ament_export_dependencies(rosidl_default_runtime)
 ament_package()
