@@ -15,6 +15,7 @@ find_package(ament_cmake REQUIRED)
 #@push
 find_package(rclcpp REQUIRED)
 find_package(minimum_srv REQUIRED)
+find_package(std_msgs REQUIRED)
 
 add_executable(minimum_service src/minimum_service.cpp)
 ament_target_dependencies(minimum_service rclcpp minimum_srv)
@@ -22,9 +23,14 @@ ament_target_dependencies(minimum_service rclcpp minimum_srv)
 add_executable(minimum_client src/minimum_client.cpp)
 ament_target_dependencies(minimum_client rclcpp minimum_srv)
 
+add_executable(adding_to_node_client src/adding_to_node_client.cpp)
+ament_target_dependencies(adding_to_node_client rclcpp std_msgs minimum_srv)
+
+
 install(TARGETS
   minimum_service
   minimum_client
+  adding_to_node_client
   DESTINATION lib/${PROJECT_NAME})
 #!#@push
 if(BUILD_TESTING)
