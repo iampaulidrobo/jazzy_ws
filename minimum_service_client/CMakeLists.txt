@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(minimum_py)
+project(minimum_service_client)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,10 +7,26 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+#@push
+find_package(rclcpp REQUIRED)
+find_package(minimum_srv REQUIRED)
 
+add_executable(minimum_service src/minimum_service.cpp)
+ament_target_dependencies(minimum_service rclcpp minimum_srv)
+
+add_executable(minimum_client src/minimum_client.cpp)
+ament_target_dependencies(minimum_client rclcpp minimum_srv)
+
+install(TARGETS
+  minimum_service
+  minimum_client
+  DESTINATION lib/${PROJECT_NAME})
+#!#@push
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
