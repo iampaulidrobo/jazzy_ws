@@ -1,0 +1,44 @@
+[0.103s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_service_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_service_client -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_service_client
+[0.701s] -- The C compiler identification is GNU 13.2.0
+[1.506s] -- The CXX compiler identification is GNU 13.2.0
+[1.633s] -- Detecting C compiler ABI info
+[2.217s] -- Detecting C compiler ABI info - done
+[2.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.252s] -- Detecting C compile features
+[2.257s] -- Detecting C compile features - done
+[2.304s] -- Detecting CXX compiler ABI info
+[2.827s] -- Detecting CXX compiler ABI info - done
+[2.930s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.935s] -- Detecting CXX compile features
+[2.935s] -- Detecting CXX compile features - done
+[2.987s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.217s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.214s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.453s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.668s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.111s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.016s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.099s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[9.058s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[9.456s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.117s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.102s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[12.102s]   By not providing "Findminimum_srv.cmake" in CMAKE_MODULE_PATH this project
+[12.102s]   has asked CMake to find a package configuration file provided by
+[12.102s]   "minimum_srv", but CMake did not find one.
+[12.102s] 
+[12.102s]   Could not find a package configuration file provided by "minimum_srv" with
+[12.103s]   any of the following names:
+[12.114s] 
+[12.114s]     minimum_srvConfig.cmake
+[12.114s]     minimum_srv-config.cmake
+[12.114s] 
+[12.115s]   Add the installation prefix of "minimum_srv" to CMAKE_PREFIX_PATH or set
+[12.126s]   "minimum_srv_DIR" to a directory containing one of the above files.  If
+[12.126s]   "minimum_srv" provides a separate development package or SDK, be sure it
+[12.126s]   has been installed.
+[12.127s] 
+[12.205s] [0m
+[12.219s] -- Configuring incomplete, errors occurred!
+[12.612s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_service_client' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_service_client -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_service_client

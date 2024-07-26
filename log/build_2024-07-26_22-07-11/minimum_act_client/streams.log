@@ -1,0 +1,42 @@
+[0.476s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_act_client -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client
+[3.864s] -- The C compiler identification is GNU 13.2.0
+[6.723s] -- The CXX compiler identification is GNU 13.2.0
+[7.292s] -- Detecting C compiler ABI info
+[9.251s] -- Detecting C compiler ABI info - done
+[9.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.412s] -- Detecting C compile features
+[9.423s] -- Detecting C compile features - done
+[9.614s] -- Detecting CXX compiler ABI info
+[11.396s] -- Detecting CXX compiler ABI info - done
+[11.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.616s] -- Detecting CXX compile features
+[11.616s] -- Detecting CXX compile features - done
+[11.736s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[13.544s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[14.578s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[15.583s] -- Added test 'lint_cmake' to check CMake code style
+[15.597s] -- Added test 'xmllint' to check XML markup files
+[15.608s] -- Configuring done (14.6s)
+[15.660s] -- Generating done (0.0s)
+[15.664s] -- Build files have been written to: /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client
+[15.785s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_act_client -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client
+[15.800s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client -- -j4 -l4
+[16.309s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client -- -j4 -l4
+[16.503s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client
+[16.564s] -- Install configuration: ""
+[16.565s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/ament_index/resource_index/package_run_dependencies/minimum_act_client
+[16.565s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/ament_index/resource_index/parent_prefix_path/minimum_act_client
+[16.565s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/ament_prefix_path.sh
+[16.565s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/ament_prefix_path.dsv
+[16.565s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/path.sh
+[16.570s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/path.dsv
+[16.573s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.bash
+[16.573s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.sh
+[16.573s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.zsh
+[16.573s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.dsv
+[16.574s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/package.dsv
+[16.574s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/ament_index/resource_index/packages/minimum_act_client
+[16.574s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/cmake/minimum_act_clientConfig.cmake
+[16.574s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/cmake/minimum_act_clientConfig-version.cmake
+[16.574s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/package.xml
+[16.597s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client

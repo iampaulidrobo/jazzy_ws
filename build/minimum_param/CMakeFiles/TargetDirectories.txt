@@ -1,0 +1,10 @@
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/uninstall.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/minimum_param_uninstall.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/minimum_param.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/test.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/edit_cache.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/rebuild_cache.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/list_install_components.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/install.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/install/local.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param/CMakeFiles/install/strip.dir

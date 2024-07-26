@@ -1,0 +1,4 @@
+source;share/minimum_cpp/local_setup.bash
+source;share/minimum_cpp/local_setup.dsv
+source;share/minimum_cpp/local_setup.sh
+source;share/minimum_cpp/local_setup.zsh

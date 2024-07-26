@@ -1,0 +1,4 @@
+source;share/minimum_act_client/local_setup.bash
+source;share/minimum_act_client/local_setup.dsv
+source;share/minimum_act_client/local_setup.sh
+source;share/minimum_act_client/local_setup.zsh

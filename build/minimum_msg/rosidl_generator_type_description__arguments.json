@@ -1,0 +1,7 @@
+{
+  "package_name": "minimum_msg",
+  "output_dir": "/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_msg/rosidl_generator_type_description/minimum_msg",
+  "idl_tuples": [
+    "/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_msg/rosidl_adapter/minimum_msg:msg/Num.idl"
+  ]
+}

@@ -1,0 +1,611 @@
+[0.000000] (-) TimerEvent: {}
+[0.002238] (minimum_act_client) JobQueued: {'identifier': 'minimum_act_client', 'dependencies': OrderedDict()}
+[0.002346] (minimum_cpp) JobQueued: {'identifier': 'minimum_cpp', 'dependencies': OrderedDict()}
+[0.002379] (minimum_msg) JobQueued: {'identifier': 'minimum_msg', 'dependencies': OrderedDict()}
+[0.002405] (minimum_param) JobQueued: {'identifier': 'minimum_param', 'dependencies': OrderedDict()}
+[0.002430] (minimum_service_client) JobQueued: {'identifier': 'minimum_service_client', 'dependencies': OrderedDict()}
+[0.002455] (minimum_srv) JobQueued: {'identifier': 'minimum_srv', 'dependencies': OrderedDict()}
+[0.002478] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.002500] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict()}
+[0.002524] (use_plugins) JobQueued: {'identifier': 'use_plugins', 'dependencies': OrderedDict()}
+[0.004332] (minimum_act_client) JobStarted: {'identifier': 'minimum_act_client'}
+[0.079062] (minimum_cpp) JobStarted: {'identifier': 'minimum_cpp'}
+[0.094785] (minimum_msg) JobStarted: {'identifier': 'minimum_msg'}
+[0.099062] (-) TimerEvent: {}
+[0.117315] (minimum_param) JobStarted: {'identifier': 'minimum_param'}
+[0.199808] (-) TimerEvent: {}
+[0.210259] (minimum_msg) JobProgress: {'identifier': 'minimum_msg', 'progress': 'cmake'}
+[0.211518] (minimum_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_msg', '-DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_msg'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_msg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_msg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.303693] (-) TimerEvent: {}
+[0.319824] (minimum_cpp) JobProgress: {'identifier': 'minimum_cpp', 'progress': 'cmake'}
+[0.334546] (minimum_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_cpp', '-DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_cpp'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.402055] (-) TimerEvent: {}
+[0.418381] (minimum_param) JobProgress: {'identifier': 'minimum_param', 'progress': 'cmake'}
+[0.431708] (minimum_param) Command: {'cmd': ['/usr/bin/cmake', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', '-DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_param'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.450718] (minimum_act_client) JobProgress: {'identifier': 'minimum_act_client', 'progress': 'cmake'}
+[0.459763] (minimum_act_client) Command: {'cmd': ['/usr/bin/cmake', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_act_client', '-DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.515127] (-) TimerEvent: {}
+[0.620085] (-) TimerEvent: {}
+[0.727943] (-) TimerEvent: {}
+[0.845657] (-) TimerEvent: {}
+[0.956927] (-) TimerEvent: {}
+[1.076546] (-) TimerEvent: {}
+[1.177189] (-) TimerEvent: {}
+[1.281057] (-) TimerEvent: {}
+[1.382307] (-) TimerEvent: {}
+[1.486533] (-) TimerEvent: {}
+[1.614144] (-) TimerEvent: {}
+[1.722334] (-) TimerEvent: {}
+[1.834408] (-) TimerEvent: {}
+[1.938614] (-) TimerEvent: {}
+[2.136699] (-) TimerEvent: {}
+[2.432266] (-) TimerEvent: {}
+[2.640623] (-) TimerEvent: {}
+[2.790132] (-) TimerEvent: {}
+[2.957047] (-) TimerEvent: {}
+[3.072736] (-) TimerEvent: {}
+[3.189755] (-) TimerEvent: {}
+[3.305898] (-) TimerEvent: {}
+[3.409225] (-) TimerEvent: {}
+[3.518561] (-) TimerEvent: {}
+[3.619596] (-) TimerEvent: {}
+[3.726197] (-) TimerEvent: {}
+[3.830660] (-) TimerEvent: {}
+[3.841174] (minimum_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[3.867926] (minimum_act_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[3.868378] (minimum_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[3.868632] (minimum_param) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[3.930884] (-) TimerEvent: {}
+[4.034133] (-) TimerEvent: {}
+[4.149204] (-) TimerEvent: {}
+[4.252434] (-) TimerEvent: {}
+[4.353534] (-) TimerEvent: {}
+[4.455774] (-) TimerEvent: {}
+[4.560524] (-) TimerEvent: {}
+[4.661390] (-) TimerEvent: {}
+[4.762224] (-) TimerEvent: {}
+[4.865155] (-) TimerEvent: {}
+[4.972064] (-) TimerEvent: {}
+[5.079691] (-) TimerEvent: {}
+[5.183869] (-) TimerEvent: {}
+[5.285131] (-) TimerEvent: {}
+[5.392542] (-) TimerEvent: {}
+[5.501916] (-) TimerEvent: {}
+[5.682271] (-) TimerEvent: {}
+[5.819472] (-) TimerEvent: {}
+[5.920579] (-) TimerEvent: {}
+[6.022829] (-) TimerEvent: {}
+[6.128347] (-) TimerEvent: {}
+[6.232196] (-) TimerEvent: {}
+[6.338165] (-) TimerEvent: {}
+[6.443887] (-) TimerEvent: {}
+[6.544473] (-) TimerEvent: {}
+[6.645078] (-) TimerEvent: {}
+[6.681256] (minimum_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[6.717501] (minimum_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[6.720617] (minimum_act_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[6.728718] (minimum_param) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[6.745418] (-) TimerEvent: {}
+[6.850512] (-) TimerEvent: {}
+[6.953652] (-) TimerEvent: {}
+[7.055217] (-) TimerEvent: {}
+[7.165267] (-) TimerEvent: {}
+[7.249802] (minimum_act_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.307683] (-) TimerEvent: {}
+[7.311860] (minimum_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.312271] (minimum_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.312446] (minimum_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.415487] (-) TimerEvent: {}
+[7.519221] (-) TimerEvent: {}
+[7.619832] (-) TimerEvent: {}
+[7.726247] (-) TimerEvent: {}
+[7.833677] (-) TimerEvent: {}
+[7.938849] (-) TimerEvent: {}
+[8.039600] (-) TimerEvent: {}
+[8.143456] (-) TimerEvent: {}
+[8.246274] (-) TimerEvent: {}
+[8.350679] (-) TimerEvent: {}
+[8.457877] (-) TimerEvent: {}
+[8.562938] (-) TimerEvent: {}
+[8.663553] (-) TimerEvent: {}
+[8.765098] (-) TimerEvent: {}
+[8.868657] (-) TimerEvent: {}
+[8.972244] (-) TimerEvent: {}
+[9.077227] (-) TimerEvent: {}
+[9.178313] (-) TimerEvent: {}
+[9.237545] (minimum_act_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.279797] (-) TimerEvent: {}
+[9.387589] (-) TimerEvent: {}
+[9.415587] (minimum_act_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.415958] (minimum_act_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.427414] (minimum_act_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.436951] (minimum_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.438226] (minimum_param) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.488792] (-) TimerEvent: {}
+[9.502435] (minimum_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.565003] (minimum_param) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.573829] (minimum_param) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.586108] (minimum_param) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.596139] (-) TimerEvent: {}
+[9.607227] (minimum_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.607795] (minimum_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.609263] (minimum_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.618549] (minimum_act_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.625339] (minimum_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.626925] (minimum_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.628854] (minimum_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.686437] (minimum_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.699407] (-) TimerEvent: {}
+[9.748783] (minimum_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.762977] (minimum_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.800927] (-) TimerEvent: {}
+[9.902841] (-) TimerEvent: {}
+[10.005003] (-) TimerEvent: {}
+[10.109880] (-) TimerEvent: {}
+[10.212577] (-) TimerEvent: {}
+[10.313900] (-) TimerEvent: {}
+[10.415362] (-) TimerEvent: {}
+[10.517088] (-) TimerEvent: {}
+[10.618197] (-) TimerEvent: {}
+[10.720547] (-) TimerEvent: {}
+[10.828592] (-) TimerEvent: {}
+[10.931213] (-) TimerEvent: {}
+[11.033937] (-) TimerEvent: {}
+[11.134660] (-) TimerEvent: {}
+[11.189602] (minimum_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.239266] (-) TimerEvent: {}
+[11.281845] (minimum_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.282249] (minimum_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.282436] (minimum_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.349186] (-) TimerEvent: {}
+[11.399625] (minimum_act_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.436196] (minimum_param) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.449945] (-) TimerEvent: {}
+[11.536062] (minimum_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[11.557892] (-) TimerEvent: {}
+[11.618869] (minimum_act_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.619965] (minimum_act_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.620638] (minimum_act_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.659607] (-) TimerEvent: {}
+[11.667068] (minimum_param) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.667586] (minimum_param) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.668741] (minimum_param) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.686195] (minimum_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.735762] (minimum_act_client) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[11.765689] (-) TimerEvent: {}
+[11.773947] (minimum_param) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[11.867492] (minimum_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.873366] (-) TimerEvent: {}
+[11.873615] (minimum_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.886422] (minimum_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.932985] (minimum_msg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[11.976822] (-) TimerEvent: {}
+[12.083048] (-) TimerEvent: {}
+[12.183522] (-) TimerEvent: {}
+[12.285995] (-) TimerEvent: {}
+[12.392138] (-) TimerEvent: {}
+[12.493234] (-) TimerEvent: {}
+[12.596421] (-) TimerEvent: {}
+[12.698369] (-) TimerEvent: {}
+[12.798978] (-) TimerEvent: {}
+[12.902818] (-) TimerEvent: {}
+[13.010754] (-) TimerEvent: {}
+[13.111756] (-) TimerEvent: {}
+[13.212377] (-) TimerEvent: {}
+[13.242621] (minimum_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[13.317283] (-) TimerEvent: {}
+[13.338371] (minimum_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[13.343546] (minimum_param) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[13.420430] (-) TimerEvent: {}
+[13.520904] (-) TimerEvent: {}
+[13.547588] (minimum_act_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[13.624350] (-) TimerEvent: {}
+[13.728253] (-) TimerEvent: {}
+[13.832337] (-) TimerEvent: {}
+[13.932828] (-) TimerEvent: {}
+[14.035511] (-) TimerEvent: {}
+[14.144438] (-) TimerEvent: {}
+[14.245148] (-) TimerEvent: {}
+[14.345810] (-) TimerEvent: {}
+[14.449161] (-) TimerEvent: {}
+[14.550189] (-) TimerEvent: {}
+[14.567930] (minimum_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[14.570218] (minimum_param) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[14.581783] (minimum_act_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.596174] (minimum_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[14.654831] (-) TimerEvent: {}
+[14.681370] (minimum_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.756123] (-) TimerEvent: {}
+[14.858243] (-) TimerEvent: {}
+[14.959850] (-) TimerEvent: {}
+[15.024535] (minimum_param) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[15.043196] (minimum_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[15.059964] (-) TimerEvent: {}
+[15.136955] (minimum_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[15.141663] (minimum_param) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[15.164107] (-) TimerEvent: {}
+[15.177208] (minimum_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.248820] (minimum_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.249326] (minimum_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.265318] (-) TimerEvent: {}
+[15.357524] (minimum_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.365474] (-) TimerEvent: {}
+[15.368094] (minimum_param) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.466232] (-) TimerEvent: {}
+[15.502829] (minimum_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[15.566405] (-) TimerEvent: {}
+[15.586868] (minimum_act_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.601431] (minimum_act_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.611900] (minimum_act_client) StdoutLine: {'line': b'-- Configuring done (14.6s)\n'}
+[15.663734] (minimum_act_client) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[15.667974] (minimum_act_client) StdoutLine: {'line': b'-- Build files have been written to: /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client\n'}
+[15.668368] (-) TimerEvent: {}
+[15.773250] (-) TimerEvent: {}
+[15.788635] (minimum_act_client) CommandEnded: {'returncode': 0}
+[15.803900] (minimum_act_client) JobProgress: {'identifier': 'minimum_act_client', 'progress': 'build'}
+[15.804000] (minimum_act_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client', '--', '-j4', '-l4'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[15.875373] (-) TimerEvent: {}
+[15.981061] (-) TimerEvent: {}
+[16.081561] (-) TimerEvent: {}
+[16.123281] (minimum_param) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[16.130368] (minimum_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[16.170127] (minimum_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[16.170496] (minimum_param) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[16.183280] (-) TimerEvent: {}
+[16.284281] (-) TimerEvent: {}
+[16.313087] (minimum_act_client) CommandEnded: {'returncode': 0}
+[16.384690] (-) TimerEvent: {}
+[16.464473] (minimum_act_client) JobProgress: {'identifier': 'minimum_act_client', 'progress': 'install'}
+[16.484828] (-) TimerEvent: {}
+[16.507159] (minimum_act_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_act_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.568494] (minimum_act_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.568933] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/ament_index/resource_index/package_run_dependencies/minimum_act_client\n'}
+[16.569183] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/ament_index/resource_index/parent_prefix_path/minimum_act_client\n'}
+[16.569361] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/ament_prefix_path.sh\n'}
+[16.569517] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/ament_prefix_path.dsv\n'}
+[16.569658] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/path.sh\n'}
+[16.574536] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/environment/path.dsv\n'}
+[16.574957] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.bash\n'}
+[16.577216] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.sh\n'}
+[16.577504] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.zsh\n'}
+[16.577675] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/local_setup.dsv\n'}
+[16.577846] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/package.dsv\n'}
+[16.578012] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/ament_index/resource_index/packages/minimum_act_client\n'}
+[16.578232] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/cmake/minimum_act_clientConfig.cmake\n'}
+[16.578379] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/cmake/minimum_act_clientConfig-version.cmake\n'}
+[16.578562] (minimum_act_client) StdoutLine: {'line': b'-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_act_client/share/minimum_act_client/package.xml\n'}
+[16.601158] (minimum_act_client) CommandEnded: {'returncode': 0}
+[16.608223] (-) TimerEvent: {}
+[16.709105] (-) TimerEvent: {}
+[16.814918] (-) TimerEvent: {}
+[16.918272] (-) TimerEvent: {}
+[17.030672] (-) TimerEvent: {}
+[17.098698] (minimum_param) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[17.131203] (minimum_act_client) JobEnded: {'identifier': 'minimum_act_client', 'rc': 0}
+[17.141151] (-) TimerEvent: {}
+[17.143145] (minimum_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[17.145342] (minimum_service_client) JobStarted: {'identifier': 'minimum_service_client'}
+[17.240920] (minimum_service_client) JobProgress: {'identifier': 'minimum_service_client', 'progress': 'cmake'}
+[17.241309] (-) TimerEvent: {}
+[17.242518] (minimum_service_client) Command: {'cmd': ['/usr/bin/cmake', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_service_client', '-DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_service_client'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_service_client', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_service_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.344172] (-) TimerEvent: {}
+[17.366895] (minimum_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[17.421061] (minimum_param) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[17.447139] (-) TimerEvent: {}
+[17.525652] (minimum_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.552169] (-) TimerEvent: {}
+[17.617271] (minimum_param) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.653269] (-) TimerEvent: {}
+[17.758465] (-) TimerEvent: {}
+[17.843700] (minimum_service_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[17.858631] (-) TimerEvent: {}
+[17.959313] (-) TimerEvent: {}
+[18.059931] (-) TimerEvent: {}
+[18.141621] (minimum_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[18.152758] (minimum_param) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[18.160714] (-) TimerEvent: {}
+[18.263610] (-) TimerEvent: {}
+[18.366727] (-) TimerEvent: {}
+[18.448278] (minimum_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[18.467182] (-) TimerEvent: {}
+[18.572427] (-) TimerEvent: {}
+[18.650555] (minimum_service_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[18.674452] (-) TimerEvent: {}
+[18.774979] (-) TimerEvent: {}
+[18.777910] (minimum_service_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.876161] (-) TimerEvent: {}
+[18.976795] (-) TimerEvent: {}
+[19.077351] (-) TimerEvent: {}
+[19.135687] (minimum_param) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.136086] (minimum_param) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[19.136261] (minimum_param) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.141584] (minimum_param) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[19.141850] (minimum_param) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[19.146941] (minimum_param) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.148877] (minimum_param) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[19.152633] (minimum_param) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.152895] (minimum_param) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.154783] (minimum_param) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.160369] (minimum_param) StdoutLine: {'line': b'-- Configuring done (18.2s)\n'}
+[19.178909] (-) TimerEvent: {}
+[19.199948] (minimum_param) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[19.218917] (minimum_param) StdoutLine: {'line': b'-- Build files have been written to: /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param\n'}
+[19.224791] (minimum_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.231441] (minimum_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_cpp/include\n'}
+[19.235122] (minimum_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.241607] (minimum_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.253189] (minimum_param) CommandEnded: {'returncode': 0}
+[19.254750] (minimum_param) JobProgress: {'identifier': 'minimum_param', 'progress': 'build'}
+[19.254797] (minimum_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param', '--', '-j4', '-l4'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_param', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[19.261630] (minimum_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.261910] (minimum_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.264295] (minimum_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.272726] (minimum_cpp) StdoutLine: {'line': b'-- Configuring done (18.3s)\n'}
+[19.279063] (-) TimerEvent: {}
+[19.362084] (minimum_service_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.381671] (-) TimerEvent: {}
+[19.384296] (minimum_cpp) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[19.394877] (minimum_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_cpp\n'}
+[19.395216] (minimum_service_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[19.396806] (minimum_service_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.402306] (minimum_service_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.442118] (minimum_cpp) CommandEnded: {'returncode': 0}
+[19.444765] (minimum_cpp) JobProgress: {'identifier': 'minimum_cpp', 'progress': 'build'}
+[19.444814] (minimum_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_cpp', '--', '-j4', '-l4'], 'cwd': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'push', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/push', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_param', 'TERM_PROGRAM_VERSION': '1.91.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1853', 'SYSTEMD_EXEC_PID': '2250', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3886', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'push', 'JOURNAL_STREAM': '8:19025', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'push', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pauli:@/tmp/.ICE-unix/2217,unix/pauli:/tmp/.ICE-unix/2217', 'INVOCATION_ID': '270570559aa84a4d83d64b07b2f1ec8c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-96f69e8b2d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins:/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[19.445466] (minimum_service_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[19.481789] (-) TimerEvent: {}
+[19.545593] (minimum_param) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimum_param.dir/src/minimum_param.cpp.o\x1b[0m\n'}
+[19.584160] (-) TimerEvent: {}
+[19.653152] (minimum_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[19.662090] (minimum_cpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/minimum_pub_node.dir/src/minimum_pub.cpp.o\x1b[0m\n'}
+[19.684400] (-) TimerEvent: {}
+[19.786330] (-) TimerEvent: {}
+[19.886748] (-) TimerEvent: {}
+[19.972194] (minimum_service_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.986896] (-) TimerEvent: {}
+[20.074494] (minimum_service_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.079689] (minimum_service_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.080092] (minimum_service_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.088477] (-) TimerEvent: {}
+[20.132152] (minimum_service_client) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[20.188621] (-) TimerEvent: {}
+[20.289162] (-) TimerEvent: {}
+[20.391194] (-) TimerEvent: {}
+[20.495422] (-) TimerEvent: {}
+[20.597952] (-) TimerEvent: {}
+[20.700179] (-) TimerEvent: {}
+[20.802834] (-) TimerEvent: {}
+[20.906186] (-) TimerEvent: {}
+[21.009048] (-) TimerEvent: {}
+[21.110957] (-) TimerEvent: {}
+[21.219175] (-) TimerEvent: {}
+[21.320783] (-) TimerEvent: {}
+[21.361793] (minimum_service_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[21.423838] (-) TimerEvent: {}
+[21.528356] (-) TimerEvent: {}
+[21.629005] (-) TimerEvent: {}
+[21.729791] (-) TimerEvent: {}
+[21.830719] (-) TimerEvent: {}
+[21.940535] (-) TimerEvent: {}
+[22.041521] (-) TimerEvent: {}
+[22.142053] (-) TimerEvent: {}
+[22.242593] (-) TimerEvent: {}
+[22.343450] (-) TimerEvent: {}
+[22.359157] (minimum_service_client) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[22.446124] (-) TimerEvent: {}
+[22.546661] (-) TimerEvent: {}
+[22.598192] (minimum_service_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[22.650168] (-) TimerEvent: {}
+[22.750699] (-) TimerEvent: {}
+[22.812840] (minimum_service_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[22.854082] (-) TimerEvent: {}
+[22.958069] (-) TimerEvent: {}
+[22.970810] (minimum_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.008091] (minimum_service_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.061395] (-) TimerEvent: {}
+[23.164152] (-) TimerEvent: {}
+[23.255580] (minimum_service_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.265165] (-) TimerEvent: {}
+[23.368164] (-) TimerEvent: {}
+[23.468744] (-) TimerEvent: {}
+[23.572158] (-) TimerEvent: {}
+[23.673934] (-) TimerEvent: {}
+[23.777491] (-) TimerEvent: {}
+[23.880134] (-) TimerEvent: {}
+[23.980717] (-) TimerEvent: {}
+[24.084162] (-) TimerEvent: {}
+[24.159896] (minimum_service_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[24.192329] (-) TimerEvent: {}
+[24.244049] (minimum_service_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[24.293518] (-) TimerEvent: {}
+[24.397035] (-) TimerEvent: {}
+[24.498967] (-) TimerEvent: {}
+[24.602103] (-) TimerEvent: {}
+[24.706145] (-) TimerEvent: {}
+[24.807888] (-) TimerEvent: {}
+[24.911282] (-) TimerEvent: {}
+[25.013522] (-) TimerEvent: {}
+[25.119722] (-) TimerEvent: {}
+[25.221643] (-) TimerEvent: {}
+[25.323207] (-) TimerEvent: {}
+[25.425837] (-) TimerEvent: {}
+[25.526910] (-) TimerEvent: {}
+[25.632069] (-) TimerEvent: {}
+[25.735828] (-) TimerEvent: {}
+[25.841480] (-) TimerEvent: {}
+[25.944985] (-) TimerEvent: {}
+[26.049800] (-) TimerEvent: {}
+[26.153520] (-) TimerEvent: {}
+[26.201827] (minimum_service_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[26.257549] (-) TimerEvent: {}
+[26.364320] (-) TimerEvent: {}
+[26.474373] (-) TimerEvent: {}
+[26.578049] (-) TimerEvent: {}
+[26.600709] (minimum_service_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[26.681609] (-) TimerEvent: {}
+[26.784212] (-) TimerEvent: {}
+[26.895443] (-) TimerEvent: {}
+[27.002263] (-) TimerEvent: {}
+[27.103126] (-) TimerEvent: {}
+[27.213402] (-) TimerEvent: {}
+[27.262117] (minimum_service_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.320708] (-) TimerEvent: {}
+[27.425135] (-) TimerEvent: {}
+[27.527050] (-) TimerEvent: {}
+[27.629177] (-) TimerEvent: {}
+[27.731327] (-) TimerEvent: {}
+[27.831951] (-) TimerEvent: {}
+[27.932704] (-) TimerEvent: {}
+[28.036179] (-) TimerEvent: {}
+[28.142419] (-) TimerEvent: {}
+[28.246097] (-) TimerEvent: {}
+[28.351834] (-) TimerEvent: {}
+[28.455613] (-) TimerEvent: {}
+[28.556350] (-) TimerEvent: {}
+[28.657825] (-) TimerEvent: {}
+[28.761874] (-) TimerEvent: {}
+[28.867957] (-) TimerEvent: {}
+[28.971138] (-) TimerEvent: {}
+[29.073165] (-) TimerEvent: {}
+[29.178164] (-) TimerEvent: {}
+[29.246223] (minimum_service_client) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (find_package):\n'}
+[29.247202] (minimum_service_client) StderrLine: {'line': b'  By not providing "Findminimum_srv.cmake" in CMAKE_MODULE_PATH this project\n'}
+[29.247390] (minimum_service_client) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[29.247525] (minimum_service_client) StderrLine: {'line': b'  "minimum_srv", but CMake did not find one.\n'}
+[29.247646] (minimum_service_client) StderrLine: {'line': b'\n'}
+[29.247766] (minimum_service_client) StderrLine: {'line': b'  Could not find a package configuration file provided by "minimum_srv" with\n'}
+[29.247898] (minimum_service_client) StderrLine: {'line': b'  any of the following names:\n'}
+[29.259095] (minimum_service_client) StderrLine: {'line': b'\n'}
+[29.259472] (minimum_service_client) StderrLine: {'line': b'    minimum_srvConfig.cmake\n'}
+[29.259600] (minimum_service_client) StderrLine: {'line': b'    minimum_srv-config.cmake\n'}
+[29.259721] (minimum_service_client) StderrLine: {'line': b'\n'}
+[29.259851] (minimum_service_client) StderrLine: {'line': b'  Add the installation prefix of "minimum_srv" to CMAKE_PREFIX_PATH or set\n'}
+[29.259978] (minimum_service_client) StderrLine: {'line': b'  "minimum_srv_DIR" to a directory containing one of the above files.  If\n'}
+[29.271403] (minimum_service_client) StderrLine: {'line': b'  "minimum_srv" provides a separate development package or SDK, be sure it\n'}
+[29.271611] (minimum_service_client) StderrLine: {'line': b'  has been installed.\n'}
+[29.271766] (minimum_service_client) StderrLine: {'line': b'\n'}
+[29.290247] (-) TimerEvent: {}
+[29.349858] (minimum_service_client) StderrLine: {'line': b'\x1b[0m\n'}
+[29.363891] (minimum_service_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[29.399404] (-) TimerEvent: {}
+[29.502094] (-) TimerEvent: {}
+[29.605638] (-) TimerEvent: {}
+[29.718419] (-) TimerEvent: {}
+[29.748412] (minimum_service_client) CommandEnded: {'returncode': 1}
+[29.820984] (-) TimerEvent: {}
+[29.926194] (-) TimerEvent: {}
+[30.028249] (-) TimerEvent: {}
+[30.133344] (-) TimerEvent: {}
+[30.244193] (-) TimerEvent: {}
+[30.346240] (minimum_service_client) JobEnded: {'identifier': 'minimum_service_client', 'rc': 1}
+[30.347472] (-) TimerEvent: {}
+[30.455920] (-) TimerEvent: {}
+[30.559965] (-) TimerEvent: {}
+[30.667187] (-) TimerEvent: {}
+[30.752610] (minimum_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[30.770962] (-) TimerEvent: {}
+[30.871817] (-) TimerEvent: {}
+[30.980724] (-) TimerEvent: {}
+[31.002212] (minimum_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[31.082908] (-) TimerEvent: {}
+[31.192270] (-) TimerEvent: {}
+[31.293013] (-) TimerEvent: {}
+[31.397960] (-) TimerEvent: {}
+[31.499876] (-) TimerEvent: {}
+[31.606192] (-) TimerEvent: {}
+[31.712794] (-) TimerEvent: {}
+[31.816769] (-) TimerEvent: {}
+[31.920712] (-) TimerEvent: {}
+[32.027730] (-) TimerEvent: {}
+[32.138339] (-) TimerEvent: {}
+[32.242140] (-) TimerEvent: {}
+[32.343058] (-) TimerEvent: {}
+[32.444889] (-) TimerEvent: {}
+[32.550300] (-) TimerEvent: {}
+[32.658926] (-) TimerEvent: {}
+[32.767295] (-) TimerEvent: {}
+[32.874898] (-) TimerEvent: {}
+[32.977259] (-) TimerEvent: {}
+[33.087704] (-) TimerEvent: {}
+[33.194154] (-) TimerEvent: {}
+[33.301210] (-) TimerEvent: {}
+[33.404211] (-) TimerEvent: {}
+[33.508714] (-) TimerEvent: {}
+[33.609342] (-) TimerEvent: {}
+[33.711863] (-) TimerEvent: {}
+[33.812947] (-) TimerEvent: {}
+[33.914181] (-) TimerEvent: {}
+[34.016844] (-) TimerEvent: {}
+[34.121186] (-) TimerEvent: {}
+[34.225639] (-) TimerEvent: {}
+[34.333475] (-) TimerEvent: {}
+[34.441296] (-) TimerEvent: {}
+[34.546883] (-) TimerEvent: {}
+[34.649162] (-) TimerEvent: {}
+[34.758201] (-) TimerEvent: {}
+[34.912599] (-) TimerEvent: {}
+[35.054035] (-) TimerEvent: {}
+[35.184638] (-) TimerEvent: {}
+[35.322473] (-) TimerEvent: {}
+[35.472039] (-) TimerEvent: {}
+[35.592131] (-) TimerEvent: {}
+[35.699659] (-) TimerEvent: {}
+[35.829558] (-) TimerEvent: {}
+[35.956753] (-) TimerEvent: {}
+[36.085882] (-) TimerEvent: {}
+[36.223961] (-) TimerEvent: {}
+[36.356727] (-) TimerEvent: {}
+[36.888407] (-) TimerEvent: {}
+[37.386347] (-) TimerEvent: {}
+[37.531120] (-) TimerEvent: {}
+[37.671830] (-) TimerEvent: {}
+[37.833119] (-) TimerEvent: {}
+[38.007811] (-) TimerEvent: {}
+[38.285099] (-) TimerEvent: {}
+[38.566055] (-) TimerEvent: {}
+[39.425567] (-) TimerEvent: {}
+[39.731263] (-) TimerEvent: {}
+[39.991388] (-) TimerEvent: {}
+[40.338522] (-) TimerEvent: {}
+[40.501186] (-) TimerEvent: {}
+[40.733895] (-) TimerEvent: {}
+[40.866972] (-) TimerEvent: {}
+[41.080820] (-) TimerEvent: {}
+[41.305547] (-) TimerEvent: {}
+[41.462210] (-) TimerEvent: {}
+[41.720540] (-) TimerEvent: {}
+[41.896094] (-) TimerEvent: {}
+[42.135602] (-) TimerEvent: {}
+[42.619210] (-) TimerEvent: {}
+[43.213487] (-) TimerEvent: {}
+[43.967281] (-) TimerEvent: {}
+[44.258840] (-) TimerEvent: {}
+[44.707395] (-) TimerEvent: {}
+[45.475500] (-) TimerEvent: {}
+[45.843750] (-) TimerEvent: {}
+[46.200948] (-) TimerEvent: {}
+[46.518772] (-) TimerEvent: {}
+[46.730673] (-) TimerEvent: {}
+[47.155419] (-) TimerEvent: {}
+[47.530530] (-) TimerEvent: {}
+[47.844118] (-) TimerEvent: {}
+[48.249091] (-) TimerEvent: {}
+[48.516678] (-) TimerEvent: {}
+[48.942378] (-) TimerEvent: {}
+[49.720331] (-) TimerEvent: {}
+[50.659061] (-) TimerEvent: {}
+[51.342228] (-) TimerEvent: {}
+[52.494774] (-) TimerEvent: {}
+[53.850855] (-) TimerEvent: {}
+[54.752140] (-) TimerEvent: {}
+[55.401290] (minimum_msg) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[56.363955] (-) TimerEvent: {}
+[57.602274] (-) TimerEvent: {}
+[59.452883] (-) TimerEvent: {}
+[60.596558] (-) TimerEvent: {}
+[63.091526] (-) TimerEvent: {}
+[66.981045] (-) TimerEvent: {}
+[71.450334] (-) TimerEvent: {}
+[78.531140] (-) TimerEvent: {}
+[89.851740] (-) TimerEvent: {}
+[96.760806] (-) TimerEvent: {}

@@ -1,0 +1,24 @@
+[0.118s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/build/minimum_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_msg -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/install/minimum_msg
+[3.774s] -- The C compiler identification is GNU 13.2.0
+[6.616s] -- The CXX compiler identification is GNU 13.2.0
+[7.218s] -- Detecting C compiler ABI info
+[9.343s] -- Detecting C compiler ABI info - done
+[9.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.513s] -- Detecting C compile features
+[9.515s] -- Detecting C compile features - done
+[9.656s] -- Detecting CXX compiler ABI info
+[11.592s] -- Detecting CXX compiler ABI info - done
+[11.778s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.779s] -- Detecting CXX compile features
+[11.797s] -- Detecting CXX compile features - done
+[11.838s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[13.148s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[14.502s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[14.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.083s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.409s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[19.559s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[22.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[30.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[30.908s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[55.794s] -- Found PythonExtra: /usr/bin/python3  

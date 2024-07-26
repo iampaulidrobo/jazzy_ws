@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminimum_sub_main_lib.a CMakeFiles/minimum_sub_main_lib.dir/src/minimum_sub_main_lib.cpp.o
+/usr/bin/ranlib libminimum_sub_main_lib.a
