@@ -1,0 +1,275 @@
+[0.202s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.202s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x734fc7cbd7f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x734fc7cbd5e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x734fc7cbd5e0>>)
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.270s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/use_plugins) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/use_plugins' with type 'ros.ament_cmake' and name 'use_plugins'
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/jazzy
+[0.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base', 'merge_install': False, 'path': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins', 'merge_install': False, 'path': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'use_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'use_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins', 'merge_install': False, 'path': '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.481s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.483s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_base' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_base'
+[0.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_plugins' with build type 'ament_cmake'
+[0.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_plugins'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins' with build type 'ament_cmake'
+[0.507s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins'
+[0.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.508s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base -- -j4 -l4
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins -- -j4 -l4
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[0.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base -- -j4 -l4
+[0.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins -- -j4 -l4
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[0.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base' for CMake module files
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_base
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base' for CMake config files
+[0.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/bin'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/lib/python3.12/site-packages'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/bin'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.sh'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.bash'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.zsh'
+[0.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/colcon-core/packages/polygon_base)
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins
+[0.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins' for CMake module files
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins' for CMake config files
+[0.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[0.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins
+[0.927s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib'
+[0.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/bin'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib/python3.12/site-packages'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/bin'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.sh'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.bash'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[0.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[0.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_base)
+[0.956s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base' for CMake module files
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base' for CMake config files
+[0.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_base', 'cmake_prefix_path')
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.ps1'
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/lib/pkgconfig/polygon_base.pc'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/lib/python3.12/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/bin'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.sh'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.bash'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.zsh'
+[0.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/colcon-core/packages/polygon_base)
+[0.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(use_plugins)
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins' for CMake module files
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins' for CMake config files
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins
+[0.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('use_plugins', 'cmake_prefix_path')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/hook/cmake_prefix_path.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/hook/cmake_prefix_path.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/hook/cmake_prefix_path.sh'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/bin'
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/pkgconfig/use_plugins.pc'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/python3.12/site-packages'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/bin'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.sh'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.bash'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.zsh'
+[1.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/colcon-core/packages/use_plugins)
+[1.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(polygon_plugins)
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins' for CMake module files
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins' for CMake config files
+[1.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'cmake_prefix_path')
+[1.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/cmake_prefix_path.sh'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib'
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('polygon_plugins', 'ld_library_path_lib')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/hook/ld_library_path_lib.sh'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/bin'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib/pkgconfig/polygon_plugins.pc'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib/python3.12/site-packages'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/bin'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.sh'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.bash'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.zsh'
+[1.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/colcon-core/packages/polygon_plugins)
+[1.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(use_plugins)
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins' for CMake module files
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins' for CMake config files
+[1.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('use_plugins', 'cmake_prefix_path')
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/hook/cmake_prefix_path.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/hook/cmake_prefix_path.dsv'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/hook/cmake_prefix_path.sh'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/bin'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/pkgconfig/use_plugins.pc'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/python3.12/site-packages'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/bin'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.sh'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.zsh'
+[1.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/colcon-core/packages/use_plugins)
+[1.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.132s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.132s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.132s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.143s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.181s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/local_setup.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/_local_setup_util_ps1.py'
+[1.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/setup.ps1'
+[1.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/local_setup.sh'
+[1.195s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/_local_setup_util_sh.py'
+[1.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/setup.sh'
+[1.204s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/local_setup.bash'
+[1.205s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/setup.bash'
+[1.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/local_setup.zsh'
+[1.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/setup.zsh'

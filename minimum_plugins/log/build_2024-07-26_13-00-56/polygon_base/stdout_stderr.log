@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/include
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/include/polygon_base
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/include/polygon_base/regular_polygon.hpp
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/environment/path.sh
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/environment/path.dsv
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/local_setup.bash
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/local_setup.sh
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/local_setup.zsh
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/local_setup.dsv
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.dsv
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+-- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/package.xml

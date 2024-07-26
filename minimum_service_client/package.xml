@@ -10,7 +10,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
   <!-- @push -->
   <depend>rclcpp</depend>
-  <depend>minimum_srv</depend>  
+  <!-- <depend>minimum_srv</depend>   -->
   <depend>std_msgs</depend>  
   <!-- !@push -->
   <test_depend>ament_lint_auto</test_depend>

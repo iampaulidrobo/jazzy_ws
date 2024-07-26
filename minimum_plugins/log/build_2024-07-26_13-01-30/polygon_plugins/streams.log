@@ -1,0 +1,24 @@
+[0.065s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins -- -j4 -l4
+[0.460s] [100%] Built target polygon_plugins
+[0.591s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins -- -j4 -l4
+[0.814s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins
+[0.860s] -- Install configuration: ""
+[0.861s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/lib/libpolygon_plugins.so
+[0.861s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[0.864s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[0.866s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[0.867s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[0.867s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[0.867s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[0.868s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[0.868s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[0.870s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[0.871s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[0.871s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[0.871s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.dsv
+[0.871s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[0.871s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[0.872s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[0.872s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[0.872s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins/share/polygon_plugins/package.xml
+[0.885s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins

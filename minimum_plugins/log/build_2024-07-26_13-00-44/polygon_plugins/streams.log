@@ -1,0 +1,36 @@
+[0.032s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins
+[0.225s] -- The C compiler identification is GNU 13.2.0
+[0.534s] -- The CXX compiler identification is GNU 13.2.0
+[0.622s] -- Detecting C compiler ABI info
+[1.162s] -- Detecting C compiler ABI info - done
+[1.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.197s] -- Detecting C compile features
+[1.197s] -- Detecting C compile features - done
+[1.226s] -- Detecting CXX compiler ABI info
+[1.678s] -- Detecting CXX compiler ABI info - done
+[1.726s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.728s] -- Detecting CXX compile features
+[1.731s] -- Detecting CXX compile features - done
+[1.752s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.357s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.802s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[2.952s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.987s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[2.987s]   By not providing "Findpolygon_base.cmake" in CMAKE_MODULE_PATH this project
+[2.987s]   has asked CMake to find a package configuration file provided by
+[2.987s]   "polygon_base", but CMake did not find one.
+[2.988s] 
+[2.988s]   Could not find a package configuration file provided by "polygon_base" with
+[2.988s]   any of the following names:
+[2.988s] 
+[2.988s]     polygon_baseConfig.cmake
+[2.989s]     polygon_base-config.cmake
+[2.989s] 
+[2.989s]   Add the installation prefix of "polygon_base" to CMAKE_PREFIX_PATH or set
+[2.990s]   "polygon_base_DIR" to a directory containing one of the above files.  If
+[2.990s]   "polygon_base" provides a separate development package or SDK, be sure it
+[2.991s]   has been installed.
+[2.991s] 
+[2.991s] [0m
+[2.991s] -- Configuring incomplete, errors occurred!
+[3.007s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_plugins

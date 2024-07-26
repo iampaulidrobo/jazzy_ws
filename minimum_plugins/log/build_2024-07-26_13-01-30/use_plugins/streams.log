@@ -1,0 +1,25 @@
+[0.069s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[0.578s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[10.448s] [100%] [32m[1mLinking CXX executable area_node[0m
+[10.807s] [100%] Built target area_node
+[10.848s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[10.947s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins
+[10.993s] -- Install configuration: ""
+[10.997s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/use_plugins/area_node
+[11.002s] -- Set non-toolchain portion of runtime path of "/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/use_plugins/area_node" to ""
+[11.005s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/package_run_dependencies/use_plugins
+[11.005s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/parent_prefix_path/use_plugins
+[11.005s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/ament_prefix_path.sh
+[11.005s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/ament_prefix_path.dsv
+[11.006s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/path.sh
+[11.006s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/path.dsv
+[11.013s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.bash
+[11.014s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.sh
+[11.014s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.zsh
+[11.014s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.dsv
+[11.014s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.dsv
+[11.014s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/packages/use_plugins
+[11.014s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/cmake/use_pluginsConfig.cmake
+[11.015s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/cmake/use_pluginsConfig-version.cmake
+[11.015s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.xml
+[11.019s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins

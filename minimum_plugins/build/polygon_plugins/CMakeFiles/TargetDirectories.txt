@@ -1,0 +1,10 @@
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/uninstall.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/polygon_plugins_uninstall.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/polygon_plugins.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/test.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/edit_cache.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/rebuild_cache.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/list_install_components.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/install.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/install/local.dir
+/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/polygon_plugins/CMakeFiles/install/strip.dir

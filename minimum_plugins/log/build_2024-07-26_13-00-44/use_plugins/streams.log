@@ -1,0 +1,35 @@
+[0.035s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins
+[0.236s] -- The C compiler identification is GNU 13.2.0
+[0.720s] -- The CXX compiler identification is GNU 13.2.0
+[0.827s] -- Detecting C compiler ABI info
+[1.386s] -- Detecting C compiler ABI info - done
+[1.417s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.418s] -- Detecting C compile features
+[1.420s] -- Detecting C compile features - done
+[1.449s] -- Detecting CXX compiler ABI info
+[1.876s] -- Detecting CXX compiler ABI info - done
+[1.922s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.923s] -- Detecting CXX compile features
+[1.924s] -- Detecting CXX compile features - done
+[1.949s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.524s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.958s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[3.117s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.149s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[3.150s]   By not providing "Findpolygon_base.cmake" in CMAKE_MODULE_PATH this project
+[3.150s]   has asked CMake to find a package configuration file provided by
+[3.150s]   "polygon_base", but CMake did not find one.
+[3.150s] 
+[3.151s]   Could not find a package configuration file provided by "polygon_base" with
+[3.151s]   any of the following names:
+[3.151s] 
+[3.151s]     polygon_baseConfig.cmake
+[3.152s]     polygon_base-config.cmake
+[3.152s] 
+[3.152s]   Add the installation prefix of "polygon_base" to CMAKE_PREFIX_PATH or set
+[3.152s]   "polygon_base_DIR" to a directory containing one of the above files.  If
+[3.152s]   "polygon_base" provides a separate development package or SDK, be sure it
+[3.153s]   has been installed.
+[3.153s] 
+[3.153s] [0m
+[3.153s] -- Configuring incomplete, errors occurred!

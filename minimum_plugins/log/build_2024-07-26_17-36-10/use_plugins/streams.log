@@ -1,0 +1,22 @@
+[0.087s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[0.496s] [100%] Built target area_node
+[0.556s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[0.626s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins
+[0.650s] -- Install configuration: ""
+[0.651s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/use_plugins/area_node
+[0.651s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/package_run_dependencies/use_plugins
+[0.651s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/parent_prefix_path/use_plugins
+[0.652s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/ament_prefix_path.sh
+[0.652s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/ament_prefix_path.dsv
+[0.652s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/path.sh
+[0.652s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/path.dsv
+[0.653s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.bash
+[0.654s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.sh
+[0.655s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.zsh
+[0.655s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.dsv
+[0.655s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.dsv
+[0.655s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/packages/use_plugins
+[0.655s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/cmake/use_pluginsConfig.cmake
+[0.655s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/cmake/use_pluginsConfig-version.cmake
+[0.656s] -- Up-to-date: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.xml
+[0.660s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins

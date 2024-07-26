@@ -1,0 +1,51 @@
+[0.052s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins
+[0.121s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.812s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.865s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.865s] -- Found polygon_base: 0.0.0 (/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/polygon_base/share/polygon_base/cmake)
+[0.877s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.316s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.316s] -- Configured cppcheck include dirs: 
+[1.317s] -- Configured cppcheck exclude dirs and/or files: 
+[1.321s] -- Added test 'lint_cmake' to check CMake code style
+[1.324s] -- Added test 'uncrustify' to check C / C++ code style
+[1.324s] -- Configured uncrustify additional arguments: 
+[1.325s] -- Added test 'xmllint' to check XML markup files
+[1.331s] -- Configuring done (1.2s)
+[1.349s] -- Generating done (0.0s)
+[1.353s] -- Build files have been written to: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins
+[1.368s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins -DCMAKE_INSTALL_PREFIX=/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins
+[1.369s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[1.533s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[3.679s] [01m[K/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins/src/area_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[3.679s] [01m[K/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins/src/area_node.cpp:18:12:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[3.680s]    18 |     printf([01;35m[K"Exception while creating class loader: "[m[K, ex.what());
+[3.680s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.680s] [01m[K/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/src/use_plugins/src/area_node.cpp:25:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[Kconst std::string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.681s]    25 |     printf("  [01;35m[K%s[m[K ", name);
+[3.681s]       |               [01;35m[K~^[m[K
+[3.681s]       |                [01;35m[K|[m[K
+[3.681s]       |                [01;35m[Kchar*[m[K
+[9.511s] [100%] [32m[1mLinking CXX executable area_node[0m
+[9.857s] [100%] Built target area_node
+[9.891s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins -- -j4 -l4
+[9.952s] Invoking command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins
+[9.978s] -- Install configuration: ""
+[9.979s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/use_plugins/area_node
+[9.981s] -- Set non-toolchain portion of runtime path of "/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/lib/use_plugins/area_node" to ""
+[9.982s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/package_run_dependencies/use_plugins
+[9.982s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/parent_prefix_path/use_plugins
+[9.983s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/ament_prefix_path.sh
+[9.983s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/ament_prefix_path.dsv
+[9.985s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/path.sh
+[9.985s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/environment/path.dsv
+[9.986s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.bash
+[9.987s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.sh
+[9.987s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.zsh
+[9.988s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/local_setup.dsv
+[9.990s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.dsv
+[9.990s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/ament_index/resource_index/packages/use_plugins
+[9.991s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/cmake/use_pluginsConfig.cmake
+[9.991s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/cmake/use_pluginsConfig-version.cmake
+[9.992s] -- Installing: /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/install/use_plugins/share/use_plugins/package.xml
+[9.995s] Invoked command in '/home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/push/CODe/ros2_ws/jazzy_default_ws/src/minimum_plugins/build/use_plugins
