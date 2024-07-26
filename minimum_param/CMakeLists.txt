@@ -17,7 +17,7 @@ add_executable(minimum_param src/minimum_param.cpp)
 ament_target_dependencies(minimum_param rclcpp)
 
 install(TARGETS
-minimum_param
+  minimum_param
   DESTINATION lib/${PROJECT_NAME}
 )
 install(

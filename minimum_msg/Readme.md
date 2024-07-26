@@ -1,0 +1,1 @@
+A simple package to demonstrate how custom msg can be created in ros2 with/without the dependencies on other ros2 msg types.
